@@ -1,4 +1,5 @@
 //=====[Libraries]=============================================================
+#include "mbed.h"
 #include "display.h"
 
 static void userInterfaceDisplayInit();
@@ -7,6 +8,7 @@ static void userInterfaceDisplayInit();
 
 int main()
 {
+    printf("%s\n", "Hello World");
     userInterfaceDisplayInit();
     while (true) {
     }
